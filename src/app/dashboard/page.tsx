@@ -38,7 +38,7 @@ export default async function DashboardPage() {
         <div className="flex flex-col gap-2">
           <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
           <p className="text-muted-foreground">
-            Welcome back. Manage your shortened links below.
+            Welcome back! Manage your shortened links below.
           </p>
         </div>
         {userLinks.length > 0 && <CreateLinkDialog />}
